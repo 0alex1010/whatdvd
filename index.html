@@ -1,1 +1,66 @@
-<title>AlexDVD</title>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>DVD Menu</title>
+<style type="text/css">
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#menu-container {
+    width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 2px solid #ffffff;
+}
+
+h1 {
+    color: #ff0000;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    width: 150px;
+    height: 50px;
+    background-color: #333333;
+    border: 1px solid #ffffff;
+    margin: 10px auto;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    line-height: 50px;
+    text-align: center;
+}
+
+.menu-item:hover {
+    background-color: #666666;
+}
+</style>
+</head>
+<body>
+<div id="menu-container">
+    <h1>My DVD Menu</h1>
+
+    <a href="#" class="menu-item">Movie 1</a>
+    <a href="#" class="menu-item">Movie 2</a>
+    <a href="#" class="menu-item">Bonus Features</a>
+</div>
+
+<script>
+// This is a basic JavaScript example, but DVD players in 2006 may not have had this level of support
+// It's primarily for illustration purposes
+// You'd need to check your DVD player's specific capabilities
+function playVideo(movieName) {
+  alert("Playing " + movieName + "!"); // Placeholder, no real video playback here
+}
+</script>
+</body>
+</html>
